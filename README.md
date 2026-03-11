@@ -1,16 +1,155 @@
-# React + Vite
+# ⚡ NeuralEdge AI — Automation Strategy Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **14 AI agents. 6 phases. One complete automation strategy — in minutes.**
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [neuraledge-ai.vercel.app](https://neuraledge-ai.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What is NeuralEdge AI?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+NeuralEdge AI is an autonomous multi-agent system that analyzes any business and produces a complete, actionable AI automation strategy — the kind that used to cost $5,000 from a consulting firm.
 
-## Expanding the ESLint configuration
+Paste a client brief (messy notes, emails, bullet points — anything). 14 specialized AI agents run in sequence and parallel, audit each other's work, and deliver a PDF-ready executive report with:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Top automation opportunities ranked by ROI
+- Specific tool recommendations with real prices
+- Full 90-day implementation roadmap
+- Budget and break-even analysis
+- Domain-specific strategies for Ops, Marketing, Finance, Support & HR
+
+---
+
+## The 14-Agent Pipeline
+
+```
+📋 Phase 0 — Brief Intake
+   └── Nathan Cross (Client Onboarding) — sanitizes any raw input into a structured brief
+
+🔍 Phase 1 — Business Discovery
+   ├── Maya Chen (Business Intake Director) — automation readiness + quick wins
+   ├── Raj Malhotra (Operations Analyst) — process mapping + time savings
+   └── Luna Park (Data & Systems Auditor) — tech stack audit + integration gaps
+
+🦅 Phase 2 — Automation QA
+   └── Victor Ashworth "The Axe" — brutally reviews Phase 1, scores 1–100, sends back if weak
+
+🗺️ Phase 3 — Opportunity Mapping (runs in parallel)
+   ├── Alex Torres — Operations automation
+   ├── Sam Rivera — Marketing automation
+   ├── Jordan Kim — Finance automation
+   ├── Casey Morgan — Customer Support automation
+   └── Riley Chen — HR & Admin automation
+
+⚙️ Phase 4 — Strategy Build
+   ├── Priya Nair (AI Tools Specialist) — master toolkit with free + paid tools
+   ├── Devon Walsh (ROI & Budget Analyst) — full financial model + break-even
+   └── Kai Okafor (Implementation Roadmap) — 90-day executable plan
+
+📄 Phase 5 — Final Report
+   └── Aria Shen — compiles everything into a client-ready executive PDF
+```
+
+---
+
+## Features
+
+- ⚡ **Fully autonomous** — agents pass context to each other automatically
+- 🔄 **QA revision loops** — Victor rejects weak work and agents redo it
+- 💾 **Persistent campaigns** — all analyses saved across sessions
+- 📝 **Revision mode** — re-run any campaign with updated client notes, saves as new version
+- 📄 **PDF export** — one-click branded report ready to deliver to clients
+- 💡 **Demo mode** — built-in Sharma Textiles example to test instantly
+
+---
+
+## Tech Stack
+
+| Layer | Tech |
+|---|---|
+| Frontend | React + Vite |
+| AI | Claude Sonnet (Anthropic API) |
+| Streaming | Server-sent events |
+| Storage | window.storage (persistent) |
+| Deployment | Vercel |
+
+---
+
+## Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/arpitrsharma007-code/neuraledge-ai.git
+cd neuraledge-ai
+npm install
+```
+
+### 2. Add your API key
+
+Create a `.env` file in the root:
+
+```
+VITE_ANTHROPIC_API_KEY=sk-ant-your-key-here
+```
+
+Get your key at [console.anthropic.com](https://console.anthropic.com)
+
+### 3. Run locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+### 4. Deploy to Vercel
+
+```bash
+vercel --prod
+```
+
+Add `VITE_ANTHROPIC_API_KEY` in Vercel → Project Settings → Environment Variables.
+
+---
+
+## Cost Per Analysis
+
+Using Claude Sonnet at $3/$15 per million tokens:
+
+| | Cost |
+|---|---|
+| Single campaign (14 agents) | ~$0.50 |
+| 10 campaigns | ~$5.00 |
+| 100 campaigns | ~$50.00 |
+
+Charge clients $25–$150 per report. **Margin: ~99%.**
+
+---
+
+## Use Cases
+
+- **Freelancers** — deliver AI strategy reports to SMB clients on Fiverr/Upwork
+- **Agencies** — white-label automation consulting at scale
+- **Consultants** — replace manual strategy decks with AI-generated reports
+- **Founders** — analyze your own business for automation opportunities
+
+---
+
+## Built By
+
+**Arpit Sharma** — Solo founder, vibe coder, building AI products for India.
+
+- 🐦 Twitter: [@arpitrsharma007](https://twitter.com)
+- 💼 GitHub: [@arpitrsharma007-code](https://github.com/arpitrsharma007-code)
+- 🌐 Agency: [NeuralEdge AI](https://neuraledge-ai.vercel.app)
+
+---
+
+## License
+
+MIT — free to use, modify, and build on.
+
+---
+
+*Built with Claude API · Deployed on Vercel · Part of the NeuralEdge AI product suite*
